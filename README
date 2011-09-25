@@ -1,0 +1,46 @@
+BlueRed webapp fuzzer
+ by m0nad [at] email.com
+
+BlueRed is a automated web application fuzzer. 
+its based on others open-source fuzzers like :
+powerfuzzer, wapiti, cfuzz, etc...
+Bluered 'crawl' the web site and inject payloads
+to see if the applications is vulnerable.
+Its can detect :
+local and remote file inclusions, 
+cross site scripting,
+sql injections,
+eval injections,
+and command execution.
+
+Requeride Modules:
+URI
+Getopt::Long
+LWP::UserAgent
+WWW::Mechanize
+IO::Socket::SSL (for https)
+Tk
+
+Installing:
+sudo apt-get install perl-tk
+cpan -i WWW::Mechanize
+cpan -i IO::Socket::SSL
+
+Copyright (C) 2010  Victor N. Ramos Mello
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+This is free software, and you are welcome to redistribute it
+#under certain conditions; type `show c' for details.
