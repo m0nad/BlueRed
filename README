@@ -1,19 +1,6 @@
-BlueRed webapp fuzzer
- by m0nad [at] email.com
-
 BlueRed is a automated web application fuzzer. 
-its based on others open-source fuzzers like :
-powerfuzzer, wapiti, cfuzz, etc...
-Bluered 'crawl' the web site and inject payloads
-to see if the applications is vulnerable.
-Its can detect :
-local and remote file inclusions, 
-cross site scripting,
-sql injections,
-eval injections,
-and command execution.
 
-Requeride Modules:
+Modules:
 URI
 Getopt::Long
 LWP::UserAgent
